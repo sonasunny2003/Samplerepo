@@ -5,7 +5,7 @@ public class StringBuffExample
 
 	public static void main(String[] args)
 	{
-		StringBuffer buff=new StringBuffer("Hello"); //string declare+initialize(creating a stringbyffer object)
+StringBuffer buff=new StringBuffer("Hello"); //string declare+initialize(creating a StringBuffer object)
 		
 		//append(String s) - join 2 strings
 		
@@ -39,6 +39,38 @@ public class StringBuffExample
 		
 		//length()
 		System.out.println("Length : "+buff.length());//string length
+		
+		
+		
+		/*StringBuffer buf=new StringBuffer("Sona");
+		
+		buf.append(" cute");
+		System.out.println(buf);
+		
+		buf.insert(5, "is ");
+		System.out.println(buf);
+		
+		buf.replace(8, 12, "gorgeous");
+		System.out.println(buf);
+		
+		buf.delete(5, 7);
+		System.out.println(buf);
+		
+		buf.reverse();
+		System.out.println(buf);
+		
+		buf.length();
+		System.out.println(buf.length());
+		
+		System.out.println(buf.capacity());
+		
+		
+		System.out.println(buf.substring(10));
+		
+		System.out.println(buf.substring(0, 8));*/
+	
+	
+		
 		
 	}
 
