@@ -5,7 +5,7 @@ public class StringBuffExample
 
 	public static void main(String[] args)
 	{
-StringBuffer buff=new StringBuffer("Hello"); //string declare+initialize(creating a StringBuffer object)
+		StringBuffer buff=new StringBuffer("Hello"); //string declare+initialize(creating a StringBuffer object)
 		
 		//append(String s) - join 2 strings
 		
